@@ -1,8 +1,6 @@
 
 # Ruby WordCounter
 
----
-
 ## About this repository
 
 This repository is my first attempt at making software with ruby \
