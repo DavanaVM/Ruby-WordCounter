@@ -11,9 +11,12 @@ using a Hashmap
 ## Requirements
 - Ruby (duh)
 - TKinter
+```
 >gem install tk
-
+```
 ## Usage
 
 Just run
-> ruby main.rb
+```
+ruby main.rb
+```
