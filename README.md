@@ -4,7 +4,7 @@
 ## About this repository
 
 This repository is my first attempt at making software with ruby \
-using a Hashmap
+using a Hashmap. It takes all text files in the selected folder and counts the amound of words sorting them by amount
 
 ## Requirements
 - Ruby (duh)
