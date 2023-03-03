@@ -10,7 +10,7 @@ using a Hashmap
 - Ruby (duh)
 - TKinter
 ```
->gem install tk
+gem install tk
 ```
 ## Usage
 
