@@ -11,12 +11,10 @@ dir.each do |path|
   wordarray = file.read
   wordarray = wordarray.downcase.gsub(/[^a-z0-9\s]/i, ' ')
   wordarray = wordarray.split(" ")
-  wordarray.each do |word|
-    if hash[word]
-      hash[word] += 1
-    else
-      hash[word] = 1
-    end
+  hash = wordarray.reduce(Hash.new(0)) do
+    |result, vote|
+    result[vote] += 1
+    result
   end
   file.close
 end
