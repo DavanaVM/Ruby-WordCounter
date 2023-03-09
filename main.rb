@@ -3,7 +3,7 @@ require 'tk'
 folder = Tk::chooseDirectory
 dir = Dir[folder + "/*.txt"]
 dir -= ["output.txt"]
-Dir.mkdir("output") unless File.exists?("output")
+Dir.mkdir("output") unless File.exist?("output")
 hash = Hash.new
 
 dir.each do |path|
